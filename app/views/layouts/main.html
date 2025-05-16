@@ -4,6 +4,21 @@ https://prototype-kit.service.gov.uk/docs/how-to-use-layouts
 #}
 
 
+{% from "govuk/components/header/macro.njk" import govukHeader %}
+{% from "govuk/components/service-navigation/macro.njk" import govukServiceNavigation %}
+
+
+<!-- New GOV branding -->
+{% set govukRebrand = true %}
+{% block header %}
+{{ govukHeader({
+  rebrand: true
+}) }}
+{{ govukServiceNavigation({
+  serviceName: serviceName,
+  serviceUrl: "/"
+}) }}
+{% endblock %}
 
 {% extends "govuk-prototype-kit/layouts/govuk-branded.njk" %}
 {% if useAutoStoreData %}
