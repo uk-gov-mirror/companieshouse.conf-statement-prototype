@@ -6,17 +6,17 @@
   },
   "name": "govuk-prototype-kit",
   "dependencies": {
-    "@govuk-prototype-kit/step-by-step": "2.2.2",
+    "@govuk-prototype-kit/common-templates": "2.0.1",
     "date-fns": "^2.30.0",
     "dateformat": "^5.0.3",
     "dotenv": "^16.3.1",
     "fs": "^0.0.1-security",
-    "govuk-frontend": "4.7.0",
-    "govuk-prototype-kit": "13.12.1",
-    "jquery": "3.7.0",
+    "govuk-frontend": "5.10.1",
+    "govuk-prototype-kit": "13.16.2",
+    "jquery": "3.7.1",
     "mkdirp": "^3.0.1",
     "moment": "^2.29.4",
-    "notifications-node-client": "5.2.3",
+    "notifications-node-client": "8.2.1",
     "puppeteer": "^21.3.1"
   }
 }
